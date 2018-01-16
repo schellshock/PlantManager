@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HydroCore", "HydroCore\HydroCore.csproj", "{7EA086FB-A300-49C4-BE6F-B964F9B1230E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlantManager", "PlantManager\PlantManager.csproj", "{070002B5-65D7-43EF-A2F4-9EF87DE4319A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7EA086FB-A300-49C4-BE6F-B964F9B1230E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7EA086FB-A300-49C4-BE6F-B964F9B1230E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7EA086FB-A300-49C4-BE6F-B964F9B1230E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7EA086FB-A300-49C4-BE6F-B964F9B1230E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{070002B5-65D7-43EF-A2F4-9EF87DE4319A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{070002B5-65D7-43EF-A2F4-9EF87DE4319A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{070002B5-65D7-43EF-A2F4-9EF87DE4319A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{070002B5-65D7-43EF-A2F4-9EF87DE4319A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
