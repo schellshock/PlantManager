@@ -8,9 +8,8 @@ namespace HydroCore
         private string _id;
         // TODO create that object
         // private object dimensions;
-        private int _cropCount;
         private bool _inService;
-        private List<Crop> _crops = new List<Crop>();
+        private List<Crop> _crops = null;
         private DateTime _lastFeeding;
         private DateTime _nextFeeding;
 
@@ -22,8 +21,7 @@ namespace HydroCore
 
         public int CropCount
         {
-            get => this._cropCount;
-            set => this._cropCount = value;
+            get => this._crops != null ? this._crops.Count : 0;
         }
 
         public bool InService
